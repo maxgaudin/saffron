@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQCZ309K52"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VQCZ309K52');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Swap our for actual link-->
+    <link rel="canonical" href="https://lizmurrill.com">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="Liz Murrill">
+
+    <!--Social Media Display-->
+    <meta property="og:title" content="Liz Murrill has lots of issues"/>
+    <meta property="og:description" content="Liz Murrill is Jeff Landry 2.0"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lizmurrill.com"/>
+    <meta property="og:image" content="http://lizmurrill.com/images/liz-murrill-logo.png"/>
+    <meta property="og:image:secure_url" content="https://lizmurrill.com/images/liz-murrill-logo.png"/>
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Preload -->
+    <link rel="preload" as="image" href="./images/liz-gun.jpeg">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/roboto-v29-latin-700.woff2" crossorigin>
+
+    <link rel="stylesheet" href="./css/critical.css"> <!-- Only above the fold css-->
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/dark.css">
+
+    <!-- Fonts  -->
+    <link rel="stylesheet" href="https://use.typekit.net/zsd4czx.css">
+    <link rel="stylesheet" href="https://use.typekit.net/crm6qqq.css">
+
+    <!--Defer loading the whole page css-->
+    <link rel="stylesheet" href="./css/local.css" media="print" onload="this.media='all'; this.onload=null;">
+
+    <!--If the user has javascript disbaled, load this stylesheet-->
+    <noscript>
+        <link rel="stylesheet" href="./css/local.css">
+    </noscript>
+
+    <title>Liz Murrill | I've got issues</title>
+</head>
+<body>
+    <!--Screen reader skip main nav-->
+    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+    <!-- ============================================ -->
+    <!--                 Navigation                   -->
+    <!-- ============================================ -->
+
+    <div id="navigation">
+        <div aria-hidden="true" class="background-color-div">
+            <!--This div is used to overcome a z-index issue where the open
+                #navbar-menu is on top of the #navigation. This bar places itself 
+                the #navbar-menu so that menu appears behind the #navigation
+            -->
+        </div>
+        <div class="container">
+            <!--Logo - Get SVGs if you can.  I use fiverr to get png's turned into SVGs. Highly recommend it, worth the $20 - get a light and dark version-->
+            <a class="logo" aria-label="click to go to home page" href="./index.html">
+                <!--Light Colored Logo, remove .dark image tag and the .light class if you don't have a dark and light version -->
+                <img class="light" aria-hidden="true" src="./images/liz-murrill-logo.png" decoding="async" alt="logo" width="221" height="66">
+
+                <!--Dark Colored Logo-->
+                <img class="dark" aria-hidden="true" src="./images/liz-murrill-logo.png" decoding="async" loading="lazy" alt="logo" width="221" height="66">
+            </a>
+
+            <!--Main Nav-->
+            <nav id="navbar-menu">
+                <ul>
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="./issues.html">Issues</a></li>
+                    <li><a href="./donors.html">Donors</a></li>
+                    <li><a href="mailto:gmail@gmail.com">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!--Dark Mode toggle-->
+            <button id="dark-mode-toggle">
+                <!--Moon is an inline SVG so you can edit the color if needed-->
+                <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+                <img class="sun" aria-hidden="true" src="./images/sun.svg" decoding="async" alt="moon" width="15" height="15">
+            </button>
+
+            <!--Mobile Nav toggle-->
+            <button class="hamburger-menu">
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <main id="main">
+        <!-- ============================================ -->
+        <!--                    LANDING                   -->
+        <!-- ============================================ -->
+    
+        <section id="hero">
+            <div class="hero-content">
+                <div class="heroText">
+                    <h1 id="home-h">Hi I'm Liz, Jeff Landry 2.0</h1>
+                    <p>"With a new governor, legislature, and attorney general, we will have an opportunity to bring true conservative reform to state government.”</p>
+                   
+                 
+                </div>
+            </div>
+            <picture>
+                <source media="(max-width: 600px)" srcset="./images/liz-gun.jpeg">
+                <source media="(min-width: 601px)" srcset="./images/liz-gun.jpeg">
+                <img aria-hidden="true" decoding="async" src="./images/liz-gun.jpeg" alt="new home" width="275" height="132">
+             </picture>
+        </section>
+
+
+        <!-- ============================================ -->
+        <!--                   About                      -->
+        <!-- ============================================ -->
+
+
+        <section>
+            
+            <div class="container">
+                <div class="content">
+                <div class="news">
+                    <h1>News</h1>
+    
+                   <ul>
+                    <li><a href="https://www.nola.com%2Fgambit%2Fnews%2Fthe_latest%2Flouisiana-ag-hopeful-liz-murrill-randomly-claims-abortion-pills-may-be-laced-with-fentanyl-spoiler%2Farticle_749214bc-3dfa-11ee-bbb3-9bec28bfb9a6.html&usg=AOvVaw3preAEmBFOToWO10cJ9-2n&opi=89978449" target="_blank">Louisiana AG hopeful Liz Murrill randomly claims abortion pills may be laced with fentanyl (Spoiler alert: they are not)</a> - The Gambit</li>
+                    <li><a href="https://theintercept.com/2018/02/12/gop-law-enforcement-chiefs-invited-donors-to-help-set-policy-via-secret-bulletin-board/">GOP Law Enforcement Chiefs Invited Donors to Help Set Policy via Secret Bulletin Board</a> - The Intercept</li>
+                    <li><a href="https://talkingpointsmemo.com/news/louisiana-attorney-general-election-reversal-lawsuit">The Template SCOTUS Election-Reversal Lawsuit That Trump Allies Pushed On LA’s AG</a> - TPM</li>
+                    <li><a href="https://www.cnn.com/2022/01/07/politics/sotomayor-oral-arguments/index.html">Two attorneys challenging vaccine mandates appear at SCOTUS virtually due to Covid protocols</a> - CNN</li>
+                    <li><a href="https://lailluminator.com/briefs/louisiana-republican-party-endorses-liz-murrill-for-attorney-general/" target="_blank">Louisiana Republican Party endorses Liz Murrill for attorney general </a> - Illuminator</li>
+                    <li><a href="https://lailluminator.com/2023/09/05/jeff-landry-and-liz-murrill-have-been-a-team-for-years-will-that-continue/" target="_blank">Jeff Landry and Liz Murrill have been a team for years. Will that continue?</a> - Illuminator</li>
+                   
+               
+                   </ul>
+                </div>
+               </div>
+                 
+            </div>
+       </section>
+
+        <section id="sidebyside" class="sidebyside">
+            
+            <div class="container">
+                
+                <div class="content">
+                    <h2 class="title">Liz’s Story</h2>
+
+                    <p>
+                        I led multi-state efforts supporting plaintiffs who attacked the overly restrictive firearm laws in New York and Hawaii. I have a concealed-carry permit and regularly practice shooting and safe handling of my firearm.</p>
+                        
+                        <p> I'm on the board of the <span class="highlight-green"><a href="https://fedsoc.org/contributors/elizabeth-murrill">Federalist Society.</a></span> You may have heard of them...they're largely responsible for getting Trump's picks on the Supreme Court and helping to overturn Roe v. Wade.  
+                    </p>
+
+                    <h3>Defending the Unborn</h3>
+                    <p>I defended Louisiana’s admitting privileges law all the way up through the United States Supreme Court, paving the way to reverse Roe v. Wade just two years later.  </p> 
+                    <p>My efforts defending Louisiana’s pro-life laws earned me the <b>2022 Leadership for Life Award from Louisiana Right to Life.</b>, the most pretigous award someone can get outside of the Nobel Prize.</p>
+                    
+                    <p>I have plenty more issues which you can <span class="highlight-green"><a href="./issues.html">find out about here.</a></span></p>
+                </div>
+                <picture>
+                     <source media="(max-width: 420px)" srcset="./images/Landry-Murrill.png">
+                     <source media="(min-width: 601px)" srcset="./images/Landry-Murrill.png">
+                     <img aria-hidden="true" loading="lazy" decoding="async" src="./images/Landry-Murrill.png" alt="GNOR PAC logo" width="500" style="margin: 0 auto">
+                     <p>Find more of my <span class="highlight-green"><a href="./donors.html">conservative donors here.</a></span></p>
+                    </picture>
+                 
+            </div>
+       </section>  
+
+       
+
+    <!-- ============================================ -->
+    <!--                     FOOTER                   -->
+    <!-- ============================================ -->
+
+
+    <footer id="footer">
+        
+            
+        <div class="container">
+            <div class="left-section">
+                <a href="/" target="_blank" rel="noopener"><img width="200" src="./images/liz-murrill-logo-footer.png" alt="Liz Murrill logo"></a>                
+                <p>This website is a parody.</p><p>Built with ❤ by Couyon Collective. </p>
+            </div>
+            <div class="right-section">
+                <div class="lists">
+                    <ul>
+                        <li><h2>Information</h2></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./issues.html">Issues</a></li>
+                        <li><a href="./donors.html">Donors</a></li>
+                        
+                    </ul>
+                   
+                    <ul>
+                        <li><h2>Say hello</h2></li>
+                       
+                        <li><a href="mailto:gmail@gmail.com">Contact us</a></li>
+                
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div class="credit">
+            <p><a href="https://www.nola.com/opinions/the-most-corrupt-state-louisiana-owns-it-opinion/article_37b5e0eb-0a70-5f20-8863-3e90d00e7357.html">"Half of Louisiana is under water and the other half is under indictment."</a> <br /> - Former Louisiana Congressman Billy Tauzin </p>
+        </div>
+        <div class="paid"><p>Paid for by Couyons for Liz</p></div>
+    </footer>
+
+
+
+    <script defer src="./nav.js"></script>
+    <script defer src="./dark.js"></script>
+    <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+    <script defer>
+        document.addEventListener('scroll', (e) => { 
+            const scroll = document.documentElement.scrollTop;
+            if(scroll >= 100){
+        document.querySelector('body').classList.add('scroll')
+            } else {
+            document.querySelector('body').classList.remove('scroll')
+            }
+        });
+    </script>
+
+</body>
+</html>
