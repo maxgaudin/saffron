@@ -396,7 +396,7 @@
   }
   #navigation .logo {
     margin-right: auto;
-    height: 3.75em;
+    height: 6.75em;
     width: auto;
   }
   #navigation .logo img {
@@ -956,4 +956,25 @@ font-style: normal;
 .news a:hover {
   color:#007aff;
   transition: all .25s ease;
+}
+
+button.mybabysaffron {
+  background: #ec9136;
+  padding: 25px 35px;
+  border: none;
+  /* border-radius: 10px; */
+  box-shadow: 10px 10px 0 #a1bea8;
+  font-family: 'Roboto';
+}
+
+button.mybabysaffron a {
+  color: #f0eadd;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+button.mybabysaffron a:hover { 
+  color: #a1bea8;
 }
